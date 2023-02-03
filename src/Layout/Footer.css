@@ -1,0 +1,15 @@
+* {
+  --padding: 20px;
+}
+footer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background: linear-gradient(90deg, rgb(6, 163, 148), rgb(0, 128, 94));
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.column1 {
+  margin-left: 20%;
+}
